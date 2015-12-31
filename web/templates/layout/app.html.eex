@@ -16,6 +16,7 @@
       <div class="header">
         <ul class="nav nav-pills pull-right">
           <li><a href="/hello">About</a></li>
+          <li><a href="http://blog.markevans.io" target="_blank">Blog</a></li>
           <li><a href="/hello/resume">Resume</a></li>
         </ul>
         <span class="logo">Mark Evans</span>
