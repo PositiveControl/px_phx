@@ -24,15 +24,37 @@ form.link, form.button {
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
-.logo {
-  width: 519px;
-  height: 71px;
-  display: inline-block;
-  margin-bottom: 1em;
-  background-image: url("/images/phoenix.png");
-  background-size: 519px 71px;
+
+.footer-blurb {
+  width: 20em;
+  font-family: "Courier New", Courier, monospace;
 }
 
+.logo {
+  width: 519px;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: 1em;
+  font-size: 4em;
+  background-size: 519px 71px;
+  font-family: "Courier New", Courier, monospace;
+}
+p, a {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.icons {
+  max-height: 3em;
+}
+.head_shot {
+  width: 500px;
+  height: 333px;
+  display: inline-block;
+  margin-bottom: 1em;
+  background-image: url("/images/headshot.jpg");
+  background-size: 500px 333px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing {
@@ -54,6 +76,11 @@ form.link, form.button {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron-white {
+  text-align: center;
+  border-bottom: 1px solid #FFF;
 }
 
 /* Supporting marketing content */

@@ -1,4 +1,48 @@
-<div class="jumbotron">
-  <h2>Hello World!</h2>
-  <p class="lead">I'm making a website, yo.</p>
+<div class="jumbotron-white">
+  <span class="head_shot"> </span><br>
+  <img src="/images/ruby.png" class="icons">
+  <img src="/images/elixir.png" class="icons">
+  <img src="/images/sinatra.png" class="icons">
+  <img src="/images/rails.png" class="icons">
+  <img src="/images/postgres_elephant_large.png" class="icons">
+  <img src="/images/mysql.png" class="icons">
+  <img src="/images/linux.png" class="icons">
+  <img src="/images/apple.png" class="icons">
+  <p class="lead"></p>
+</div>
+
+<div "content">
+<p>
+A tinkerer is probably the best adjective for me, I find myself eternally curious and often distracted
+by new and shiny things.  Whether it's a new programming language/framework/library or a new toy, chances
+are in my spare time I can be found playing with (learning) something new.  Most of my programming time
+is spent in Ruby and that is where I am the strongest, but as a tinkerer, I enjoy trying to solve
+problems in other languages such as Elixir and JavaScript.  In fact, this site was built with <a href="http://www.elixir-lang.org">Elixir</a>,
+Phoenix and JavaScript.  Overkill, I know. :)
+</p>
+<p>
+If I'm not programming the webbernets, I've been known to hack and clone RFID tags with the <a href="http://www.proxmark.org/proxmark">Proxmark III</a>,
+because spending countless hours and ~$450 on hardware sounded much more fun than paying my apartment complex $125 for a new one
+(shhh!  Don't tell them).  On a nice day you'll likely find me riding my <a href="http://litespeed.com">LiteSpeed</a> Li2 road bike for a
+few hours to burn off some steam; or if I'm feeling particulary lazy, you might find me binging on Netflix or
+playing Final Fantasy XIV with my roommate.
+</p>
+<p>
+Nearly as much as I like learning new things, I enjoy helping others learn.  Since September 2014 I've
+volunteered as a mentor at Galvanize to budding junior developers and found it to be extremely fulfilling,
+not only because I get to help them grow as developers, but because they help me grow as well.  It's amazing
+how much I've learned through mentoring!
+</p>
+<p>
+Something near and dear to me is the military.  I spent eight years serving as an Air Traffic Controller
+in the U.S. Navy and had the opportunity to server in the Middle East (x2), as well as lived and served
+in Japan for two years.  Because of this experience, I volunteer for
+<a href="http://www.teamrubiconusa.org">Team Rubicon</a>, a rapid deploy disaster response team made up of
+medical professionals, veterans, and first responders, who volunteer their time to deploy all over the world
+when disasters strike.  In 2013, I had the opportunity to join Team Rubicon when massive flooding struck the
+Front Range in Colorado; and in 2015 was certified as a Type 2 Wildland Firefighter through the Bureau of Land Management
+(via Team Rubicon).
+<p>
+Without chatting your ear off too much, I'd say that's a brief glimpse of who I am. :)  Thanks for stopping by.
+</p>
 </div>

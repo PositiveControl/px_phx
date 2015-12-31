@@ -16,13 +16,9 @@ defmodule MarkappPhx.Router do
   scope "/", MarkappPhx do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", HelloController, :index
     get "/hello", HelloController, :index
+    # get "/hello/resume", HelloController, :resume
     get "/hello/:messenger", HelloController, :show
   end
-
-  # Other scopes may use custom stacks.
-  # scope "/api", MarkappPhx do
-  #   pipe_through :api
-  # end
 end
