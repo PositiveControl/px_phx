@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Phoenix!</title>
+    <title>Mark Evans</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -15,9 +15,10 @@
     <div class="container" role="main">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+          <li><a href="/hello">About</a></li>
+          <li><a href="/hello/resume">Resume</a></li>
         </ul>
-        <span class="logo"></span>
+        <span class="logo">Mark Evans</span>
       </div>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
@@ -25,6 +26,16 @@
 
       <%= @inner %>
 
+
+      <div class="header">
+      </div>
+      <div>
+      <span class="pull-right footer-blurb"> Professional software developer from Denver, CO.  Experienced in Ruby and in love with Elixir.</span>
+      <span>
+        <p>Mark Evans</p>
+        <p><a href="mailto: msteven.evans@gmail.com">msteven.evans@gmail.com</a></p>
+      </span>
+    </div>
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

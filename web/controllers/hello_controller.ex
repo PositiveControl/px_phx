@@ -5,6 +5,10 @@ defmodule MarkappPhx.HelloController do
     render conn, "index.html"
   end
 
+  # def resume(conn, _params) do
+  #   render conn, "resume.html"
+  # end
+
   def show(conn, %{"messenger" => messenger}) do
     render conn, "show.html", messenger: messenger
   end
