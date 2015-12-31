@@ -18,7 +18,7 @@ config :markapp_phx, MarkappPhx.Endpoint,
   cache_static_manifest: "priv/static/manifest.json",
   secret_key_base: System.get_env("SECRET_KEY_BASE")
 
-config :hello_phoenix, HelloPhoenix.Repo,
+config :markapp_phx, MarkappPhx.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
   pool_size: 20
